@@ -39,7 +39,7 @@ function APIURL(siteURL, op, subreddit) {
   // Note: vote calls will 404 without the 'www.' (included in site URL)
   var subredditPart;
   if (subreddit) {
-    subredditPart = "r/" + subreddit + "/";
+    subredditPart = "d/" + subreddit + "/";
   } else {
     subredditPart = ""; 
   }

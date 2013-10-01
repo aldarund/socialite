@@ -21,7 +21,7 @@
 <!ENTITY login.label "Log in...">
 <!ENTITY login.accesskey "i">
 
-<!ENTITY subreddit.tooltip "Subreddit">
+<!ENTITY subreddit.tooltip "Dottopic">
 <!ENTITY subreddit.loadingtext "Loading...">
 <!ENTITY textboxTitle.emptytext "Please enter a title describing this web page.">
 <!ENTITY textboxTitle.tooltip "Post Title">

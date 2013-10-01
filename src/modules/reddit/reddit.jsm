@@ -89,7 +89,7 @@ RedditSite.prototype.onSitePageLoad = function(doc, win) {
   if (mailIcon) {
     let hasMail = mailIcon.className == "havemail";
     if (hasMail != this.alertState) {
-      logger.log("RedditSite", this.siteName, "Reddit orangered envelope differs from alert state. Refreshing alert state.");
+      logger.log("RedditSite", this.siteName, "Iowndot orangered envelope differs from alert state. Refreshing alert state.");
       this.alertState = hasMail;
       this.refreshAlertState();
     }
@@ -331,7 +331,7 @@ RedditSite.prototype.createBarContentUI = function(document, linkInfo) {
     
     let subredditURL = function() {
       if (barContent.linkInfo.localState.subreddit) {
-        return site.siteURL+"r/"+barContent.linkInfo.localState.subreddit+"/";
+        return site.siteURL+"d/"+barContent.linkInfo.localState.subreddit+"/";
       } else {
         return site.siteURL;
       }

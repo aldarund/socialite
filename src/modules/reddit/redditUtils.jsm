@@ -11,9 +11,9 @@ let XPathResult = Components.interfaces.nsIDOMXPathResult;
  * @return the comparison between items a and b.
  */
 function subredditSort(a, b) {
-  if (a.data.url == "/r/reddit.com/") {
+  if (a.data.url == "/d/iowndot.com/") {
     return -1;
-  } else if (b.data.url == "/r/reddit.com/") {
+  } else if (b.data.url == "/d/iowndot.com/") {
     return 1;
   } else {
     if (a.data.url < b.data.url) {

@@ -7,8 +7,8 @@
                    em:minVersion="3.6"
                    em:maxVersion="9.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
-                   em:id="socialite@chromakode"
-                   em:name="Socialite"
+                   em:id="socialite@iowndot.com"
+                   em:name="Iowndot Socialite"
                    em:version="1.5.1"
                    em:type="2"
                    em:iconURL="chrome://socialite/skin/socialite.png"
@@ -19,8 +19,8 @@
   <RDF:Description RDF:about="rdf:#$lddXp3"
                    em:locale="en-US"
                    em:name="Socialite"
-                   em:homepageURL="http://www.reddit.com/socialite/"
-                   em:description="Vote on and submit stories to reddit social news sites."
+                   em:homepageURL="http://www.iowndot.com/socialite/"
+                   em:description="Vote on and submit stories to iowndot social news sites."
                    em:creator="Chromakode"
                    em:contributor="slyf" />
 </RDF:RDF>
